@@ -1,0 +1,99 @@
+html {
+  background-color: #242222;
+}
+
+.nav {
+  border: solid;
+  border-color: #323332;
+  border-width: 1px;
+}
+
+.jumbotron {
+  background-color: #1c1d1d;
+  padding: 80px;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: Indie Flower;
+  padding: 10px;
+  font-size: 40px;
+}
+h3 {
+  font-family: Indie Flower;
+  
+}
+
+.input-color {
+  background-color: #202020;
+  border-color: #222;
+  color: #f7f4f4;
+}
+.input-color:focus {
+  border-color: #ffffff;
+}
+
+
+::placeholder {
+  color: #a7a7a7 !important;
+}
+
+p {
+  font-family: Indie Flower;
+  font-size: 50px;
+  
+}
+.col-xs-6 p {
+  font-size: 20px;
+}
+p a {
+  font-size: 35px;
+}
+
+.form-group {
+  font-family: Indie Flower;
+  
+}
+
+.own-btn {
+  background-color: #303030;
+}
+
+button:hover {
+  background-color: #202020;
+  color: #ffffff !important;
+  border-color: #222;
+}
+
+.my-footer {
+  border: solid;
+  border-width: 1px;
+}
+
+.thumbnail {
+  background-color: #222323;
+  border: #222;
+}
+
+.contact-images img {
+  margin-top: 20px;
+  height: 50px;
+  width: auto;
+}
+
+.profile-pic {
+  width: 50%;
+}
+
+.col-xs-13 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+@media(max-width: 1000px) {
+  .col-xs-13 {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+}
